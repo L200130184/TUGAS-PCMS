@@ -1,0 +1,25 @@
+ Tugas Video Tutorial Drupal | Achmad Munawir Noviandri | L200130184
+
+1.	Administrator Menu Modul + Coffee
+•	Mengubah tampilan menu pada halaman admin dan mencari konfigurasi dengan cepat atl+D
+	buka structur->mainmenu->copy link admin menu dari web drupal.org->klik modul ->install new modul->paste link->klik install->akan muncul installisaasi berhasil jika benar->klik enable newly added modul->klik CORF->centang ceklist Administration menu dan administration menu toolbar style->klik CORF lagi_>Uncecklist toolbar->unceklist overlay->simpan konfgurasi
+	 >Copy link coffe tar.gz dari web drupal.org->klik modul->install mnew modul->paste link yg di copy->klik install-> klik enable newly added modul-> Ceklist cofee->klik Alt+D cari nimage ->masuk halaman configuration->Alt+D cari coffe->  cara menggunakanya Toggle Coffe di opera alt+sift+d di windows alt+ctrl+d dan cara lainalt+k
+2.	Installing Bootstrap Theme + Jquery udpate
+•	CSS framework untuk mengubah tampilan tema pada drupal yang responsive dan update jquery untuk menampilkan animasi yang berjalan bersama bootstrap.
+	Klik apparance->install new theme->paste link download dari bootstrap di web drupal-> klik enable new theme-> enable bootstrap 3 ->klik home->klik apparance-> ada notif Jquery update terus buka linknya->download jquery update dari web drupal-> install new modul-> ceklist Jquery udpate->klik atl+d jquery pada konfigurasi-> klik konfigurasi jqueri (seven admin theme)-> pilih jquery 1.7->save configurasi->masuk halaman apparance->klik ada beberapa pilihan breadcumbs, navbar position, dan region wells untuk pengaturqan tampilan->klik apparance->klik java script ada beberap version->klik advance untuk mengubah versi bootstrap->pilih botswatch ada beberapa pilihan theme-> klik save->klik home tampilan akan berganti.
+3.	Bootstrap subtheme
+•	Untuk menambahkan sub theme bootstrap dengan menambahakan sub theme di folder bootstrap-themes.
+	Klik site->all->theme->bootstrap> copy bootstrap-subtheme->taruh di folder themes->ubah name bootstrap_subtheme.info .staterkit menjadi bootstrap_subtheme.info ->klik apparance->klik enable and set default di bootstrap subtheme->cek responsivebilitas
+4.	Add bootsrap source file 
+•	-untuk mengubah versi bootstrap ke versi atasnya dengan menambah source code pada subtheme bootstrap.
+	Klik apparance->setting bootstrap->advance->bootstrapcdn->pilih bootstrap versi jadi disabled->save konfigurasi->download source code bootstrap->masuk folder bootstrap di localdisk C->klik site->all->themes->bootstrap sub_theme->klik bootstrap 3.3.5->copy file dari js-> paste di dist->copy dist ke bootstrap-subtheme->ganti nama jadi bootstrap->hapus folder bootraps 3.3.5->tambah script pada file bootstrap_subtheme.info pada baris ke 26 menjadi stylesheets[all][] = bootstrap/css/bootstrap.in.css
+5.	Getting template file
+•	-untuk menambahkan template yang responsive dengan mencopy beberap file dari thema utama ke subtheme .
+	Klik folder bootstrap->all->themes->bootstrap->system->copy html.tpl.php dan page.tpl.php->klik folder bootstrap_subtheme->klik templates dan paste file html.tpl.php dan page.tpl.php ->open folder block di folder bootstrap copy file block.tpl.php-> paste di folder template pada folder bootstrap_subtheme->copy file node.tpl.php dari folder modules – node->paste di folder template bootstrap subtheme
+
+6.	CKEditor Moduls
+•	CkEditor adalah modul editor konten berbasis GUI dengan beberapa pilihan 
+	Copy link modul ckeditor dari web drupal->klik modul->install new modul-> paste dan klik install-> cek di home tulis konten ubah format full HTML->klik configuratin-> content authoring-> texs format ubah ke full HTML
+7.	IMCE Moduls
+•	IMCE adalah modul untuk mengatifkan fitur upload gambar pada GUI
+	Copy link modul IMCE dari web drupal-> klik modul->install new modul-> paste dan install-> klik configuration->Ckeditor->editor apparance tambahkan bebrapa funsi salah satunya fungsi upload gambar->ceklist plugin for inserting drupal embeded media dan for inserting filefrom IMCE without image dialog->klik save
