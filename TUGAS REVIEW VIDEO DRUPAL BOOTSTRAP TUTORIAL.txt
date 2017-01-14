@@ -23,3 +23,48 @@
 7.	IMCE Moduls
 •	IMCE adalah modul untuk mengatifkan fitur upload gambar pada GUI
 	Copy link modul IMCE dari web drupal-> klik modul->install new modul-> paste dan install-> klik configuration->Ckeditor->editor apparance tambahkan bebrapa funsi salah satunya fungsi upload gambar->ceklist plugin for inserting drupal embeded media dan for inserting filefrom IMCE without image dialog->klik save
+8.	Empty front page 
+•	-Salah satu modul untuk mengkosongkan halaman awal default drupal.
+	Copy link empty front page  from drupal.com web->klik modules->install new modul-> paste link terus install-> klik new add modul-> ceklist empty front page->save-> tambah content->add content->klik publishing optiont-ceklist promoted to front page->untuk menghilangkan postingan di depan klik structure->article->publishing option->uncecklist pprometed to front page->save
+9.	Bootraps Navbar
+•	-Untuk mengganti tampilan navbar pada css bootstrap  sesuai dengan pilihan
+	Klik appearance->setting bootstrap->klik navbar->pilih navbar position cari contoh di web bootstrap.com->sesuaikan (static top, fixed top, fixed bootom),->klik inverse navbar style->save---karena belom responsive klik kanan inspect element  terus cek heading navbar statis->masuk folder bootsrap->site-bootsrap subtheme-css->style.css->tambahkan script admin-menu{ z-index:999;}->save
+10.	Special menu items
+•	-Drupal Module yang menyediakan placeholder dan separator (pemisah) untuk menu items
+	A Klik content->add content->article-> ceklist provide menu link->save maka akan tertambah beberap content baru-> cari dungsi main menu alt+D -> add link ->isi menu link title->isi path <front>->ceklist show as expended->save->geser judul content sesuai keinginan  yg akan di tampilkan di about us->copy link special menu items dari grub drupal->klik modul->install new modul->paste link dan install->ceklist special menu item dan Jquery update->alt+D cari special masuk ke halaman configuration-> alt+D cari main menu lagi->edit about us->copy tulisan <nolink> pada path hapus tulisan <span> paste->save->inspect element-> alt+d special menu item->ganti tulisan <span> menjadi <a href=”#” pada html for “nolink”->save untuk responsivibilitas
+11	Pathauto
+ Module yang otomatis membuat URL/path untuk tiap content yang berbeda beda
+12	Views
+Untuk menkostumisasi lists dan queries dari database yang digunakan.
+13	Ctools
+Kumpulan dari beberapa tools yang membantu dalam pembuatan bootstrap.
+14	DraggableViews
+Membuat rows lebih dapat diatur / membuat tampilan “draggable”.
+15	Plupload Integration
+Untuk mengintegrasikan drupal dengan Plupload widget yang berguna untuk mengupload banyak files ke drupal.
+16	Devel
+Untuk menambah bermacam macam block, page dan functions untuk developer.
+17	Image URL Formatter
+Untuk menambah URL formatter di field. Jadi URL image akan ter output secara langsung.
+18	Equal Heights JQuery
+Untuk menyeimbangkan/menyamakan tinggi dari element di kelas tertentu.
+19	Libraries API
+Libraries API untuk drupal.
+20	Display Suite
+Untuk mengontrol penuh bagaimana content tersebut disajikan.
+21	Bootstrap Filegroup
+Menambah set formatter baru untuk opsi fieldgroup saat konfigurasi view mode display.
+22	Field Formatter Settings 
+Memiliki kemampuan modul lain untuk dengan mudah mengubah pengaturan lapangan formatter bentuk dan ringkasan formatter.
+23	Frequently Asked Answer
+Modul yang mengijinkan admin untuk membentuk sebuah FAQ.
+24	Views Bulk Operations
+Modul ini menambah Views dengan memungkinkan operasi massal akan dieksekusi pada baris yang ditampilkan.
+25	Icon API
+Untuk mengintegrasikan bundle icon di drupal.
+27	Font Awesome Icons
+Font untuk bootstrap drupal.
+28	Token Filter 
+Modul yang sangat sederhana untuk membuat nilai-nilai tanda tersedia sebagai filter input.
+
+
